@@ -77,6 +77,7 @@
   height: 50px;
   overflow: hidden;
   box-shadow: 2px 2px 2px lightgrey;
+  animation: height 0.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
 .article h2 {
   font-size: 28px;
@@ -107,6 +108,7 @@
 }
 .article-open {
   height: 400px;
+  animation: height 0.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
 html,
 body {
