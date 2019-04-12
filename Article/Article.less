@@ -11,6 +11,7 @@
   height: 50px;
   overflow: hidden;
   box-shadow: 2px 2px 2px lightgrey;
+  animation: height 0.5s cubic-bezier(0.770, 0.000, 0.175, 1.000);
 
   h2 {
     font-size: 28px;
@@ -27,9 +28,10 @@
     position: absolute;
     top: 10px;
     right: 10px;
+    //animation: scale-in-ver-top 0.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) both;
   }
 
-  .expandButton {
+  .buttons {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -39,10 +41,14 @@
     transform: translate(-50%);
     background-color: white;
   }
+  .hide-btn {
+    display: none;
+  }
 }
 
 .article-open {
   height: 400px;
+  animation: height 0.5s cubic-bezier(0.770, 0.000, 0.175, 1.000);
 }
 
 
